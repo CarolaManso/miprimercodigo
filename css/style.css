@@ -1,0 +1,725 @@
+
+
+/*----------------------NAV----------------------------*/
+
+
+/* NAV FALTA CAMBIAR COLOR*/
+nav {  
+    font-family: 'Work Sans';
+    font-size: 20px ;
+    display: flex;
+flex-direction: row;
+padding: 0px 120px;
+gap: 100px;
+justify-content: flex-end;
+color: black;
+ }  
+
+
+ /* HEADER */
+ header{
+    margin-top: 0px;
+padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+ }
+
+
+/*---------------TEXTOS HOME---------------------*/
+
+
+ /* TEXTO YELLOW HELLO! */ 
+ h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150px;
+    color: #CCFF08;
+justify-items: center; 
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding-bottom: 0px;
+padding: 40px 0px;
+gap: 16px;
+-webkit-animation: bounce-in-top 1.1s both;
+	        animation: bounce-in-top 1.1s both;
+ }
+
+ /* TEXTO SAYING HELLO */
+ #sayinghelloarrow{
+    margin-bottom: 200px;
+    align-items: center;
+    color: black;
+ }
+
+  /* LITTLE ARROW */
+#sayinghelloarrow{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: slide-in-blurred-top 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+  /* NOMBRE CAROLA MANSO */
+ #nombrecm {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 110px;
+    color: black;
+    justify-items: center; 
+    justify-items: center; 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 8px;
+gap: 16px;
+}
+
+
+/* TEXTO YELLOW INTRO LINE UX */
+ #uxintro{
+justify-items: center; 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px 16px;
+gap: 16px;
+font-size:  30px;
+color:#CCFF08
+ }
+
+/* TEXTO SOME OF MY WORK */
+#introwork{
+    justify-items: flex-end; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 16px;
+    gap: 16px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+  }
+
+/* TEXTO SAYING HELLO */
+  #littlehello{
+    justify-items: flex-end; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 16px;
+    gap: 16px;
+    color: black;
+    font-family: "Open Sans" ;
+    font-size: 14px ;
+  }
+
+
+  main{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 204px;
+  }
+
+/*-----------------BACKGROUNDS-------------------------*/
+
+
+/* FONDO WHITE BACKGROUND*/
+#eggwhite{
+    background-color: #F2F2F2;
+}
+
+/* FONDO YELLOW BACKGROUND */
+footer{
+    background-color: #CCFF08;
+}
+
+/* FONDO BLUE BACKGROUND */
+#azulillo{ 
+    background-color: #54678A;
+}
+
+
+/*-----------------------H3---------------------------*/
+    h3{
+        justify-items: flex-start; 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+       align-items: flex-start;
+        padding: 20px 16px;
+        gap: 16px;
+        font-size: 42px;
+      }
+
+  /*-----------------------H2---------------------------*/
+    
+  h2{
+    justify-items: flex-start; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   align-items: flex-start;
+    padding: 20px 16px;
+    gap: 16px;
+  }
+
+
+/*-----------------------P---------------------------*/
+
+  p{
+    justify-items: flex-start; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   align-items: flex-start;
+    padding: 20px 16px;
+    gap: 16px;
+  }
+
+  a{
+    justify-items: flex-start; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 16px;
+    gap: 16px;
+  }
+
+/*--------------------TORTU-------------------------*/
+/*CAJA CONTENEDOR TEXTOS TORTU */
+#textostortu{
+    background-color: white;
+    width: 315px;
+    border-radius: 20px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 46px;
+    padding-bottom: 40px; 
+    align-items: center;
+    align-content: center;
+    
+}
+/*TITULO TORTU BOX*/
+#titulotortu{
+    font-size: 42px;
+    font-family: "Open Sans";
+}
+/* SUBTITULO TORTU BOX*/
+#textostortu h2 {
+    font-size: 18px;
+    font-family: "Open Sans";
+    color: #808080;
+    padding-top: 22px;
+    padding-bottom: 11px;
+}
+/*PARRAFO TORTU BOX*/
+#textostortu p {
+    font-size: 16px;
+    font-family: "Open Sans";
+    padding-bottom: 26px;
+}
+/*CTA TORTU BOX */
+#botonctatortu{
+    background-color: orange;
+    border-radius: 5px;
+    width: fit-content;
+    font-family: "Open Sans";
+    margin-left: 16px;
+
+    
+}
+#buttontatortu {
+    padding: 10px 35px;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+}
+#tortutodo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  
+
+/*----------------------WALLAPOP------------------------*/
+/*CAJA CONTENEDOR TEXTOS WALLAPOP */
+#cajawallapop{
+    background-color: white;
+    width: 315px;
+    border-radius: 20px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 46px;
+    padding-bottom: 40px; 
+    align-items: center;
+    align-content: center;
+}
+/*TITULO WALLAPOP BOX*/
+#cajawallapop{
+    font-size: 42px;
+    font-family: "Open Sans";
+
+}
+/* SUBTITULO WALLAPOP BOX*/
+#cajawallapop h2 {
+    color: #808080;
+    font-size: 18px;
+    font-family: "Open Sans";
+    padding-top: 22px;
+    padding-bottom: 11px;
+}
+/*PARRAFO WALLAPOP BOX*/
+#cajawallapop p {
+    font-size: 16px;
+    font-family: "Open Sans";
+    padding-bottom: 26px;
+}
+/*CTA WALLAPOP BOX */
+#botonwallapop{
+    background-color: #59BEAB;
+    border-radius: 5px;
+    width: fit-content;
+    margin-left: 16px;
+}
+#buttonwallapop {
+    padding: 10px 35px;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+}
+#wallatodo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+
+
+/*----------------------METALLICKO------------------------*/
+/*CAJA CONTENEDOR TEXTOS METALLICKO */
+#cajametallicko{
+    background-color: white;
+    width: 315px;
+    height: 378px;
+    border-radius: 20px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 46px;
+    padding-bottom: 40px; 
+    align-items: center;
+    align-content: center;
+}
+/*TITULO METALLICKO BOX*/
+#cajametallicko{
+    font-size: 42px;
+    font-family: "Open Sans";
+
+}
+/* SUBTITULO METALLICKO BOX*/
+#cajametallicko h2 {
+    color:#808080;
+    font-size: 18px;
+    padding-top: 22px;
+    padding-bottom: 11px;
+    font-family: "Open Sans";
+
+}
+/*PARRAFO METALLICKO BOX*/
+#cajametallicko p {
+    font-size: 16px;
+    padding-bottom: 26px;
+    font-family: "Open Sans";
+
+}
+/*CTA METALLICKO BOX */
+#botonmetallicko{
+    background-color: #FF3845;
+    border-radius: 5px;
+    width: fit-content;
+    margin-left: 16px;
+}
+#buttonmetallicko {
+    padding: 10px 35px;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+}
+#metatodo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+#metatodo img{
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+/*----------------------HOSPITALS------------------------*/
+
+/*CAJA CONTENEDOR TEXTOS HOSPITALS */
+#cajahospitals{
+    background-color: white;
+    width: 315px;
+    border-radius: 20px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 46px;
+    padding-bottom: 40px; 
+    align-items: center;
+    align-content: center;
+}
+/*TITULO HOSPITALS BOX*/
+#cajahospitals{
+    font-family: "Open Sans";
+    font-size: 42px;
+}
+/* SUBTITULO HOSPITALS BOX*/
+#cajahospitals h2 {
+    color: #808080;
+    font-size: 18px;
+    font-family: "Open Sans";
+    padding-top: 22px;
+    padding-bottom: 11px;
+}
+/*PARRAFO HOSPITALS BOX*/
+#cajahospitals p {
+    font-size: 16px;
+    font-family: "Open Sans";
+    padding-bottom: 26px;
+}
+/*CTA HOSPITALS BOX */
+#botonhospitals{
+    background-color: #5E97FF;
+    border-radius: 5px;
+    width: fit-content;
+    margin-left: 16px;
+
+}
+#buttonhospitals {
+    padding: 10px 35px;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+}
+#hospitodo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #hospitodo img{
+    object-fit: contain;
+  }
+
+
+
+
+
+
+
+/*-----------------------------------------------------*/
+
+
+  /* ----------------------------------------------
+ * Generated by Animista on 2023-3-2 10:3:3
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-in-blurred-top
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-in-blurred-top {
+    0% {
+      -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+              transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+              transform: translateY(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-blurred-top {
+    0% {
+      -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+              transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+              transform: translateY(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+
+  /*----------------ANIMACION------------------------*/
+  
+  /* ----------------------------------------------
+ * Generated by Animista on 2023-3-2 10:10:43
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation bounce-in-top
+ * ----------------------------------------
+ */
+@-webkit-keyframes bounce-in-top {
+    0% {
+      -webkit-transform: translateY(-500px);
+              transform: translateY(-500px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: translateY(-65px);
+              transform: translateY(-65px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: translateY(-28px);
+              transform: translateY(-28px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    90% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: translateY(-8px);
+              transform: translateY(-8px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes bounce-in-top {
+    0% {
+      -webkit-transform: translateY(-500px);
+              transform: translateY(-500px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: translateY(-65px);
+              transform: translateY(-65px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: translateY(-28px);
+              transform: translateY(-28px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    90% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: translateY(-8px);
+              transform: translateY(-8px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  
+
+/*-----------------------FOOTER-------------------------*/
+ 
+
+/* TEXTO FOOTER HIT ME UP */
+#attention { 
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 127px;
+    color: black;
+    padding: 165px 65px 0 65px;
+} 
+
+.test {
+    display: block;   
+}
+
+#animation {
+    animation: boing 4s both infinite;
+}
+
+/* FOOTER CTAS */
+  #email{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+  }
+
+  #phone{
+    display: flex;
+    align-items: center;
+    margin-left: 190px;
+  }
+
+  #linkedIn{
+    display: flex;
+    align-items: center;
+    margin-left: 206px;
+    margin-bottom: 100px;
+  }
+
+  #footername{
+    align-items: center;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:  20px;
+    color: white;
+justify-items: center; 
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+     
+  }
+  #fraselinkedin{
+    color: black;
+}
+
+
+
+#miaumiau{
+    width: 50%;
+    margin-left: 60px;
+}
+ 
+.footer_ctas {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+/*-----------------------------------------------------*/
+
+
+ @keyframes boing {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(100px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+ }
+
+  
+#infotitulo{
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 127px;
+    color: black;
+    padding: 166px 40px 0 65px;
+}
+
+
+
+
+#phone{
+    font-family: "Open Sans";
+    font-size: 12px;
+}
+#email{
+    font-family: "Open Sans";
+    font-size: 12px;
+}
+#linkedIn{ 
+    font-family: "Open Sans";
+    font-size: 14px;
+}
